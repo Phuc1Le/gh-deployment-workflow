@@ -9,7 +9,7 @@
   <meta property="og:description" content="Research, projects, and life at the University of Rochester." />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-  <link rel="stylesheet" href="css/style.css?v=20261018-compact" />
+  <link rel="stylesheet" href="css/style.css?v=20261018-projects" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -58,20 +58,20 @@
       <section id="projects" aria-labelledby="projects-title">
         <h2 id="projects-title">Projects</h2>
         <article class="entry">
-          <h3><a href="https://github.com/Phuc1Le/USAII" target="_blank" rel="noopener">Stella ↗</a></h3>
-          <p>A project planning assistant I built with a team to help people turn a rough idea into a clear roadmap.</p>
+          <h3 class="project-heading"><a href="https://github.com/Phuc1Le/USAII" target="_blank" rel="noopener">Stella ↗</a><span class="tech-stack">FastAPI · PostgreSQL · SQLAlchemy · Pydantic AI · pgvector</span></h3>
+          <p>A project planning assistant I built with a team to turn rough ideas into clear roadmaps. I eliminated N+1 database queries and co-built semantic project memory with rolling summaries to retain context across long conversations.</p>
         </article>
         <article class="entry">
-          <h3><a href="https://github.com/Phuc1Le/complete-RAG-pipeline" target="_blank" rel="noopener">Document RAG ↗</a></h3>
-          <p>A document retrieval pipeline that finds relevant information across different file formats to support AI answers grounded in source material.</p>
+          <h3 class="project-heading"><a href="https://github.com/Phuc1Le/complete-RAG-pipeline" target="_blank" rel="noopener">Document RAG ↗</a><span class="tech-stack">Dense vectors · BM25 · Cross-encoder</span></h3>
+          <p>A retrieval pipeline that grounds AI answers in documents across multiple file formats. I combined semantic and keyword search with reciprocal rank fusion and cross-encoder reranking to surface relevant source material.</p>
         </article>
         <article class="entry">
-          <h3><a href="https://github.com/Phuc1Le/Cloud-ops-Copilot" target="_blank" rel="noopener">AWS Infrastructure Copilot ↗</a></h3>
-          <p>A chat tool for checking cloud infrastructure through everyday questions, making it easier to understand what's running.</p>
+          <h3 class="project-heading"><a href="https://github.com/Phuc1Le/Cloud-ops-Copilot" target="_blank" rel="noopener">AWS Infrastructure Copilot ↗</a><span class="tech-stack">TypeScript · MCP · AWS Lambda · Next.js · Zod</span></h3>
+          <p>A chat tool for understanding cloud infrastructure through everyday questions. I exposed seven read-only tools across six AWS services and deployed a streaming interface with validated tool schemas and least-privilege access.</p>
         </article>
         <article class="entry">
-          <h3><a href="https://github.com/Phuc1Le/defect_detector_active_learning/tree/main" target="_blank" rel="noopener">Bottle Defect Detection ↗</a></h3>
-          <p>A system that spots defects in bottles while reducing the number of images people need to label by hand.</p>
+          <h3 class="project-heading"><a href="https://github.com/Phuc1Le/defect_detector_active_learning/tree/main" target="_blank" rel="noopener">Bottle Defect Detection ↗</a><span class="tech-stack">Python · PyTorch · ResNet-18 · OpenCV · scikit-learn</span></h3>
+          <p>A defect detection system that reduces manual image labeling. Synthetic defects and uncertainty-based active learning achieved 93.2% accuracy and 85% F1, reaching about 90% accuracy with only half the real training labels.</p>
         </article>
       </section>
 
@@ -88,7 +88,14 @@
         </article>
         <article class="entry">
           <div class="entry-heading"><h3>Tutor</h3><p class="date">Current</p></div>
-          <p>Workshop Leader in Data Structures &amp; Algorithms and Study Group Leader in Discrete Mathematics.</p>
+        </article>
+        <article class="entry">
+          <h3>Study Group Leader</h3>
+          <p>Discrete Mathematics</p>
+        </article>
+        <article class="entry">
+          <h3>Workshop Leader</h3>
+          <p>Data Structures &amp; Algorithms</p>
         </article>
       </section>
 

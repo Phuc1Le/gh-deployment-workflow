@@ -12,14 +12,14 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Seg
 a { color: inherit; text-underline-offset: 4px; }
 a:hover { text-decoration: underline; }
 a:focus-visible { outline: 3px solid currentColor; outline-offset: 5px; }
-.page { width: min(980px, calc(100% - 64px)); margin: auto; }
+.page { width: min(1400px, calc(100% - 48px)); margin: auto; }
 .site-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 28px 0; }
 .wordmark { font-family: Georgia, serif; font-size: 29px; font-weight: bold; text-decoration: none; }
 nav { display: flex; flex-wrap: wrap; gap: 8px 22px; }
 nav a { font-size: 13px; font-weight: 600; text-decoration: none; }
 main { display: flex; flex-direction: column; gap: 30px; }
-section { position: relative; width: 76%; padding: 25px 30px; border: 2px solid var(--ink); border-radius: 8px; box-shadow: 5px 5px 0 var(--ink); scroll-margin-top: 24px; }
-.introduction { width: 100%; display: grid; grid-template-columns: 1.45fr 1fr; gap: 32px; align-items: center; padding: 30px; background: var(--cream); }
+section { position: relative; width: 86%; padding: 22px 24px; border: 2px solid var(--ink); border-radius: 8px; box-shadow: 5px 5px 0 var(--ink); scroll-margin-top: 24px; }
+.introduction { width: 100%; display: grid; grid-template-columns: 1.45fr 1fr; gap: 32px; align-items: center; padding: 24px; background: var(--cream); }
 #experience { align-self: flex-start; background: var(--green); color: var(--cream); }
 #projects { align-self: flex-end; background: var(--gold); }
 #leaderships { align-self: flex-start; background: var(--rust); color: var(--cream); }
@@ -69,3 +69,6 @@ footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12
 .awards li { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
 .awards li + li { margin-top: 10px; }
 .awards .date { flex-shrink: 0; }
+
+.project-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+.tech-stack { font-size: 12px; font-weight: 400; line-height: 1.6; }
