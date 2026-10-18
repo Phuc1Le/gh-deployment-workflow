@@ -1,11 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Le Hong Phuc — Software Engineer</title>
+<meta name="description" content="Computer Science & Mathematics student at the University of Rochester building reliable AI systems, backend infrastructure, and cloud applications." />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Le Hong Phuc — Software Engineer" />
+<meta property="og:description" content="Computer Science & Mathematics student building reliable AI systems, backend infrastructure, and cloud applications." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="images/picture1.jpg" />
+<meta name="twitter:card" content="summary" />
+
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <h1>Hello, GitHub Actions!</h1>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="navbar">
+  <div class="container">
+    <a href="#top" class="nav-logo">Phuc<span>.</span>dev</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-links" class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section id="top" class="hero">
+    <div class="container">
+      <div>
+        <h1 class="hero-name">Le Hong Phuc</h1>
+        <p class="hero-tagline">Computer Science &amp; Mathematics student building reliable AI systems, backend infrastructure, and cloud applications.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+          <a class="btn btn-secondary" href="https://github.com/Phuc1Le" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/phuc-le-hong-0a0236328/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/picture1.jpg" alt="Portrait of Le Hong Phuc" width="168" height="168" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="eyebrow">About</p>
+          <div class="about-text">
+            <p>I like figuring out how things work well enough to rebuild them better. That curiosity is what pulled me toward computer science and mathematics — fields where an idea only counts once it runs, and where the difference between a clever solution and a reliable one is usually the harder half of the work.</p>
+            <p>My current research at HeLab focuses on scGPT brain cell-type annotation, from fine-tuning to embedding-based reference mapping. Most of what I build sits at the intersection of AI systems and the infrastructure that keeps them dependable: data pipelines, APIs, and cloud services that hold up outside of a demo. I care less about a technology being new and more about whether it is the right tool for the problem in front of me, which keeps me reading documentation and picking up new tools on a fairly regular basis.</p>
+            <p>Outside of coursework and projects, I'm usually on a field or in a pool, and I try to stay involved in campus life through the leadership and student-support roles I take on at Rochester.</p>
+          </div>
+        </div>
+        <dl class="about-facts reveal">
+          <div class="about-fact">
+            <dt>Based in</dt>
+            <dd>Rochester, New York</dd>
+          </div>
+          <div class="about-fact">
+            <dt>Studying</dt>
+            <dd>Computer Science &amp; Mathematics</dd>
+          </div>
+          <div class="about-fact">
+            <dt>Currently</dt>
+            <dd>Research Assistant at HeLab</dd>
+          </div>
+          <div class="about-fact">
+            <dt>Interested in</dt>
+            <dd>AI systems, backend infrastructure, cloud</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section id="experience" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Experience</p>
+        <h2 class="section-title">Where I've worked</h2>
+      </div>
+      <p class="section-intro reveal">Research and engineering experience in machine learning, evaluation, and data infrastructure.</p>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-date">September 2026 — Present</div>
+          <div class="timeline-rail"><span class="timeline-dot"></span></div>
+          <div class="timeline-content">
+            <h3 class="timeline-role">Research Assistant</h3>
+            <p class="timeline-org">HeLab · University of Rochester</p>
+            <ul><li>Developed scGPT brain cell-type annotation pipelines using PyTorch, Scanpy, and AnnData, comparing fine-tuning with pretrained embedding-based reference mapping.</li><li>Fine-tuned scGPT and evaluated 848,701 brain nuclei across held-out datasets, achieving 92.76% accuracy and 88.08% macro-F1 on unseen donors; outperformed reference-mapping baselines in both metrics.</li><li>Engineered reference mapping with memory-efficient data streaming, resumable embeddings, and GPU-accelerated nearest-neighbor search, enabling faster evaluation and stronger results on challenging cell types despite lower overall accuracy and macro-F1.</li></ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-date">May 2026 — July 2026</div>
+          <div class="timeline-rail"><span class="timeline-dot"></span></div>
+          <div class="timeline-content">
+            <h3 class="timeline-role">Software Engineer Intern</h3>
+            <p class="timeline-org">VecML · Remote</p>
+            <ul><li>Developed a Vietnamese RAG evaluation benchmark using 300+ domain documents and curated question-answer pairs to assess retrieval and generation performance.</li><li>Curated financial test datasets in StarRocks and configured Supabase PostgreSQL; accessed Linux VMs via SSH and executed code within Docker containers.</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section-pad" style="background: var(--color-bg-subtle); border-top: 1px solid var(--color-gray-100); border-bottom: 1px solid var(--color-gray-100);">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Projects</p>
+        <h2 class="section-title">Things I've built</h2>
+      </div>
+      <p class="section-intro reveal">Selected projects in AI agents, cloud infrastructure, and computer vision.</p>
+
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <h3 class="project-name">Stella — Project Planning Platform</h3>
+          <div class="project-stack"><span class="tag">FastAPI</span><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">Pydantic AI</span><span class="tag">pgvector</span></div>
+          <p class="project-desc">Collaborated with a team to build an AI project planning platform that turns vague ideas into structured roadmaps through adaptive Q&amp;As, goal generation, milestone planning, and chat assistance.</p>
+          <div class="project-challenge"><strong>Key contributions</strong>Developed the FastAPI backend, eliminated N+1 queries with SQLAlchemy eager loading, and built a ReAct-style agent with project retrieval and web search. Co-designed semantic project memory using pgvector and project-scoped cosine similarity search, with rolling summarization for long-running conversations.</div>
+          <a class="btn-ghost" href="https://github.com/Phuc1Le/USAII" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3 class="project-name">AWS Infrastructure Copilot</h3>
+          <div class="project-stack">
+            <span class="tag">Node.js</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">MCP</span>
+            <span class="tag">AWS SDK v3</span>
+            <span class="tag">Next.js</span>
+          </div>
+          <p class="project-desc">An MCP server exposing 7 read-only tools across 6 AWS services — EC2, S3, IAM, Lambda, CloudWatch, and Cost Explorer — that lets Claude query live infrastructure in natural language.</p>
+          <div class="project-challenge">
+            <strong>Key challenges</strong>
+            Validated tool schemas with Zod, deployed the MCP backend to AWS Lambda via Streamable HTTP, and built a streaming Next.js chat interface secured with least-privilege IAM permissions.
+          </div>
+          <a class="btn-ghost" href="https://github.com/Phuc1Le/Cloud-ops-Copilot" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3 class="project-name">Active Learning for Bottle Defect Detection</h3>
+          <div class="project-stack">
+            <span class="tag">ResNet-18</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Active Learning</span>
+          </div>
+          <p class="project-desc">A computer vision pipeline that bootstraps training with synthetically generated bottle defects, then iteratively selects uncertain samples for annotation.</p>
+          <div class="project-challenge">
+            <strong>Key challenges</strong>
+            Built a synthetic defect generator in OpenCV for scratches, cracks, scuffs, and blobs, benchmarked uncertainty-based sample selection against random acquisition with weighted sampling for class imbalance, and reached 93.2% test accuracy (0.85 F1) — about 90% accuracy using only half the available real labels.
+          </div>
+          <a class="btn-ghost" href="https://github.com/Phuc1Le/defect_detector_active_learning/tree/main" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Skills</p>
+        <h2 class="section-title">Technical skills</h2>
+      </div>
+      <p class="section-intro reveal">Grouped by where they show up in my work rather than listed all at once.</p>
+
+      <div class="skills-grid reveal">
+        <div class="skill-category">
+          <h3>// Programming Languages</h3>
+          <ul>
+            <li>C</li><li>C++</li><li>Java</li><li>Python</li><li>JavaScript</li><li>TypeScript</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>// Backend</h3>
+          <ul>
+            <li>Node.js</li><li>Express</li><li>Flask</li><li>FastAPI</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>// Frontend</h3>
+          <ul>
+            <li>React</li><li>Next.js</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>// AI / ML</h3>
+          <ul><li>PyTorch</li><li>scikit-learn</li><li>Scanpy</li><li>AnnData</li><li>FAISS</li><li>Pydantic AI</li><li>OpenCV</li><li>MCP</li><li>RAG</li></ul>
+        </div>
+        <div class="skill-category">
+          <h3>// Cloud</h3>
+          <ul>
+            <li>AWS (EC2, S3, IAM, Lambda)</li><li>CloudWatch</li><li>Cost Explorer</li><li>Vercel</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>// Databases</h3>
+          <ul><li>PostgreSQL</li><li>pgvector</li><li>StarRocks</li><li>Supabase</li></ul>
+        </div>
+        <div class="skill-category">
+          <h3>// DevOps</h3>
+          <ul><li>Docker</li><li>Terraform</li><li>Ansible</li><li>GitHub Actions</li><li>Git</li><li>Linux</li><li>Slurm</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="training" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal"><p class="eyebrow">Technical Training</p><h2 class="section-title">Learning through practice</h2></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><h3 class="project-name">CodePath AI 201 — Applications of AI Engineering</h3><p class="project-desc">Developed a RAG pipeline with multi-format document ingestion, hybrid retrieval using dense vectors and BM25, reciprocal rank fusion, and cross-encoder reranking.</p><a class="btn-ghost" href="https://github.com/Phuc1Le/complete-RAG-pipeline" target="_blank" rel="noopener">View on GitHub</a></article>
+        <article class="project-card reveal"><h3 class="project-name">Backend Development Projects</h3><p class="project-desc">Built REST APIs with Node.js, Express, and PostgreSQL; practiced containerization and AWS EC2 deployment using Docker, Terraform, Ansible, and GitHub Actions.</p><a class="btn-ghost" href="https://github.com/Phuc1Le/Backend-Projects" target="_blank" rel="noopener">View on GitHub</a></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LEADERSHIP ================= -->
+  <section id="leadership" class="section-pad" style="background: var(--color-bg-subtle); border-top: 1px solid var(--color-gray-100); border-bottom: 1px solid var(--color-gray-100);">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Leadership &amp; Service</p>
+        <h2 class="section-title">Beyond technical work</h2>
+      </div>
+      <p class="section-intro reveal">Roles that have less to do with code and more to do with communication, responsibility, and supporting other people.</p>
+
+      <div class="leadership-grid"><div class="leadership-card reveal"><h3 class="leadership-role">Workshop Leader</h3><p class="leadership-org">University of Rochester</p><p>Data Structures &amp; Algorithms</p></div>
+<div class="leadership-card reveal"><h3 class="leadership-role">Study Group Leader</h3><p class="leadership-org">University of Rochester</p><p>Discrete Mathematics</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AWARDS ================= -->
+  <section id="awards" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Awards</p>
+        <h2 class="section-title">Recognition</h2>
+      </div>
+
+      <div class="awards-layout">
+        <div class="awards-image reveal">
+          <img src="images/picture2.jpg" alt="Placeholder image representing awards and recognition" />
+        </div>
+        <div class="awards-list reveal">
+          <div class="award-item">
+            <span class="award-mark"></span>
+            <div>
+              <p class="award-title">Silver Prize — ICPC North America Northeast Regional Contest</p>
+              <p class="award-desc">2025</p>
+            </div>
+          </div>
+          <div class="award-item">
+            <span class="award-mark"></span>
+            <div>
+              <p class="award-title">First Prize — Hanoi Excellent Math Student Selection Exam</p>
+              <p class="award-desc">2022</p>
+            </div>
+          </div>
+<div class="award-item">
+            <span class="award-mark"></span>
+            <div>
+              <p class="award-title">USAII Hackathon Finalist</p>
+              <p class="award-desc">2026</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOBBIES ================= -->
+  <section id="hobbies" class="section-pad" style="background: var(--color-bg-subtle); border-top: 1px solid var(--color-gray-100); border-bottom: 1px solid var(--color-gray-100);">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Outside of Work</p>
+        <h2 class="section-title">Hobbies</h2>
+      </div>
+
+      <div class="hobbies-layout">
+        <div class="hobby-grid reveal">
+          <div class="hobby-card">
+            <h3 class="hobby-name">Football</h3>
+            <p class="hobby-desc">"I enjoy the teamwork, quick decision-making, and competitiveness."</p>
+          </div>
+          <div class="hobby-card">
+            <h3 class="hobby-name">Basketball</h3>
+            <p class="hobby-desc">"It's a fast way to clear my head, and I like the mix of individual skill and reading the rest of the team."</p>
+          </div>
+          <div class="hobby-card">
+            <h3 class="hobby-name">Swimming</h3>
+            <p class="hobby-desc">"There's something calming about a sport that's just you, the water, and a pace you set yourself."</p>
+          </div>
+        </div>
+        <div class="hobbies-image reveal">
+          <img src="images/picture3.jpg" alt="Placeholder image representing hobbies" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION ================= -->
+  <section id="education" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Education</p>
+        <h2 class="section-title">Academic background</h2>
+      </div>
+
+      <div class="education-card reveal">
+        <div>
+          <h3 class="education-school">University of Rochester</h3>
+          <p class="education-degrees">B.S. in Computer Science and Mathematics</p>
+
+          <div class="education-fact-row">
+            <span>GPA</span>
+            <span>3.98 / 4.00</span>
+          </div>
+          <div class="education-fact-row">
+            <span>Expected graduation</span>
+            <span>May 2029</span>
+          </div>
+          <div class="education-fact-row">
+            <span>Location</span>
+            <span>Rochester, New York</span>
+          </div>
+        </div>
+        <div>
+          <p class="coursework-title">// Relevant coursework</p>
+          <div class="coursework-list">
+            <span class="tag">AI</span>
+            <span class="tag">Data Structures &amp; Algorithms</span>
+            <span class="tag">Computation and Formal Systems</span>
+            <span class="tag">Probability</span>
+            <span class="tag">Linear Algebra</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section-pad contact">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-intro">Happy to talk about internships, collaborations, or anything on this page.</p>
+      <div class="contact-links">
+        <a href="mailto:ple6@u.rochester.edu">ple6@u.rochester.edu</a>
+        <a href="https://github.com/Phuc1Le" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/phuc-le-hong-0a0236328/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Le Hong Phuc</span>
+    <span>Built with HTML, CSS &amp; JS</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
