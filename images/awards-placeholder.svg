@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240">
+  <rect width="600" height="240" fill="#ead8b5"/>
+  <path d="M278 38H322V78L300 98L278 78Z" fill="#a84c32"/>
+  <circle cx="300" cy="107" r="29" fill="#dfb963" stroke="#322c26" stroke-width="2"/>
+  <path d="M300 90L305 101L317 102L308 110L311 122L300 116L289 122L292 110L283 102L295 101Z" fill="#322c26"/>
+  <text x="300" y="179" text-anchor="middle" font-family="Georgia, serif" font-size="23" fill="#322c26">Awards &amp; campus moments</text>
+  <text x="300" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5e5143">Photo coming soon</text>
+</svg>

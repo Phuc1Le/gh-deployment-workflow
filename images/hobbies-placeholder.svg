@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240">
+  <rect width="600" height="240" fill="#eae4cd"/>
+  <circle cx="270" cy="84" r="32" fill="#284f43"/>
+  <path d="M270 67L285 78L279 96H261L255 78Z" fill="#eae4cd"/>
+  <path d="M320 62H356V110H320Z" fill="#fff9ed" stroke="#322c26" stroke-width="2"/>
+  <path d="M332 62V110M344 62V110" stroke="#322c26" stroke-width="2"/>
+  <path d="M328 62V87M340 62V87M352 62V87" stroke="#322c26" stroke-width="6"/>
+  <text x="300" y="179" text-anchor="middle" font-family="Georgia, serif" font-size="23" fill="#322c26">A little life outside of work</text>
+  <text x="300" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5e5143">Photo coming soon</text>
+</svg>
